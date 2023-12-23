@@ -1,0 +1,14 @@
+
+
+dependencies {
+    implementation project(path: ':databace')
+    implementation project(path: ':entity')
+    implementation project(path: ':deserializer')
+
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}

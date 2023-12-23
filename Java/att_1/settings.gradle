@@ -1,0 +1,6 @@
+rootProject.name = 'att_1'
+include 'model'
+include 'json_module'
+include 'generator'
+include 'mains'
+

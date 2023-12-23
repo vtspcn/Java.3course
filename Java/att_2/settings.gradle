@@ -1,0 +1,11 @@
+rootProject.name = 'att_2'
+include 'model'
+include 'json_module'
+include 'generator'
+include 'mains'
+include 'entity'
+include 'support_module'
+include 'databace'
+include 'console'
+include 'deserializer'
+

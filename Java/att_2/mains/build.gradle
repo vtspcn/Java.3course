@@ -1,0 +1,16 @@
+
+
+dependencies {
+    implementation project(path: ':model')
+    implementation project(path: ':generator')
+    implementation project(path: ':json_module')
+    implementation project(path: ':entity')
+    implementation project(path: ':databace')
+    implementation project(path: ':console')
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
